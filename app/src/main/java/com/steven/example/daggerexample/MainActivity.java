@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityMVP.V
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ((App) getApplication()).getmComponent().inject(this);
+        ((App) getApplication()).getComponent().inject(this);
 
         mUsername = findViewById(R.id.username);
         mPassword = findViewById(R.id.password);
